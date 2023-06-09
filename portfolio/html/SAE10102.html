@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <head>
+      <meta charset="UTF-8">
+      <title>Mon portfolio</title>
+      <link rel="stylesheet" href="./../style/style-projet.css"> <!-- Feuille de style principale -->
+    </head>
+
+    <body>
+
+        <!-- 
+          Barre de navigation principale.
+          À noter : le lien actif contient un nom de classe "actif"
+        -->
+      <header>
+        <nav>
+          <ul id="lienPOS">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="qui-suis-je.html">Qui-suis-je ?</a></li>
+            <li><a class="actif" href="mes-projets.html">Mes projets</a></li>
+            <li><a href="me-contacter.html">Me contacter</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+
+        <!-- 
+          Menu latéral montrant une photo de profil
+          ainsi que des informations personnelles
+        -->
+
+        <!-- Le contenu principal apparait ici -->
+        <article>
+            <h1>Mes projets</h1>
+            <nav>
+              <ul id="projetliste">
+                <li>
+                   <a href="./SAE10102.html"><img src="./../img/java.png" alt="image du projet" id="imgprojet"/><br>SAE 1.0102</a>
+                  </li>
+                <li>
+                    <a href="./SAE103.html"><img src="./../img/logo_pc.png" alt="image du projet" id="imgprojet"/><br>SAE 1.03</a>
+                </li>
+                <li>
+                    <a href="./SAE104.html"><img src="./../img/titanic.jpeg" alt="image du projet" id="imgprojet"/><br>SAE 1.04</a>
+                </li>
+                <li>
+                    <a href="./SAE10506.html"><img src="./../img/logoIBM.png" alt="image du projet" id="imgprojet"/><br>SAE 1.0506</a>
+                </li>
+            </ul>
+            </nav>
+        </article>
+        <article>
+          <h1>SAE1.0102</h1>
+          <ul id="contenu_SAE">
+            <li>
+              <h2>L'objectif de cette SAE</h2>
+              <p>
+                L'objectif de la SAE 1.0102 était de développer un programme Java capable de reconnaître le thème d'un texte 
+                à partir des mots qui le composent. Ce programme avait pour but d'attribuer automatiquement le thème correspondant 
+                à des dépêches tirées du flux RSS.
+              </p>
+            </li>
+            <li>
+              <h2>Le travail effectué</h2>
+              <p>
+                Pour ce projet, nous avons été placés en binôme afin de réaliser ce programme. 
+                Nous disposions d'un algorithme qui permettait, à partir d'une dépêche, d'obtenir le titre et 
+                le contenu sous forme d'une liste de mots. Notre tâche consistait à générer des lexiques afin
+                 d'attribuer à chaque mot une valeur indiquant dans quelle mesure il représentait le thème. 
+                 L'objectif était de disposer d'un lexique par thème. Grâce à ces lexiques, nous pouvions 
+                 calculer un score par thème, un score élevé indiquant une forte représentation, ce qui nous 
+                 permettait d'attribuer automatiquement un thème à chaque dépêche. <br> <br>
+                  Dans ce projet, mon binôme et moi avons travaillé en étroite collaboration. 
+                  Personnellement, j'ai travaillé sur l'algorithme de tri utilisé pour trier les
+                   lexiques, ainsi que sur le calcul des scores par thème. Cependant, nous avons
+                    travaillé collectivement sur certaines parties plus complexes, telles que la 
+                  lecture des dépêches à partir d'un fichier texte et l'écriture des lexiques et 
+                  des résultats dans des fichiers texte.
+              </p>
+            </li>
+          </ul>
+        </article>
+
+      </main>
+
+      <!-- Barre des réseaux sociaux -->
+      <footer>
+        <nav>
+          <ul id="lienRS">
+            <li><a href="#" target="_blank">Github</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </body>
+  </html>
+
+

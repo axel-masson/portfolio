@@ -1,0 +1,93 @@
+﻿main {
+    gap: 10px;
+    background-color:lightgray;
+    border-radius:7px;
+    padding:10px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+#lienPOS {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 7px;
+    flex-flow: row wrap;
+}
+
+#lienPOS a:link {
+        text-decoration: none;
+        margin: 20px;
+        padding: 10px;
+    }
+
+#lienPOS a:link:hover {
+            background-color: lightgray;
+            color: black;
+            padding: 10px;
+            border-radius: 7px;
+        }
+
+#lienRS {
+    list-style: none;
+}
+
+
+
+#projetliste {
+    list-style:none;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    flex-flow:row wrap;
+}
+
+#projetliste li img{
+    border-radius: 5px;
+    overflow: hidden;
+}
+#imgprojet{
+    height: 100px;
+}
+button {
+    border: none;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+button:hover{
+    background-color: gray;
+}
+main a{
+    color: black;
+    text-decoration: none;
+
+}
+main article:nth-child(2){
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    margin: 20px;
+}
+
+#contenu_SAE  {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#contenu_SAE li {
+    padding: 30px;
+    width: 50%;
+}
+
+

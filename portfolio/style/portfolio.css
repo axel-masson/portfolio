@@ -1,0 +1,54 @@
+main {
+  display: flex;
+  gap: 10px;
+  background-color:lightgray;
+  border-radius:7px;
+}
+
+main article{
+    background-color: white;
+    border-radius: 20px;
+    padding:10px;
+    margin: 20px;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#lienPOS {
+    list-style: none;
+    display:flex;
+    justify-content:space-around;
+    background-color:darkgray;
+    padding:10px;
+    border-radius:7px;
+    flex-flow: row wrap;
+}
+#lienPOS a:link{
+    text-decoration:none;
+    margin:20px;
+    padding:10px;
+
+}
+#lienPOS a:link:hover{
+    background-color:lightgray;
+    color:black;
+    padding:10px;
+    border-radius:7px;
+}
+
+#lienRS {
+  list-style: none;
+}
+#PP{
+    width:150px;
+}
+
+aside{
+    max-width:220px;
+
+}
